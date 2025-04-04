@@ -13,7 +13,11 @@ const Navbar = () => {
           <nav aria-label="breadcrumb">
             <ol className="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
               <li className="breadcrumb-item text-sm">
-                <Link to="/" className="opacity-5 text-dark" href="javascript:;">
+                <Link
+                  to="/"
+                  className="opacity-5 text-dark"
+                  href="javascript:;"
+                >
                   Home
                 </Link>
               </li>
@@ -63,7 +67,7 @@ const Navbar = () => {
               </li>
               <li className="nav-item d-flex align-items-center">
                 <Link
-                  to="/signup"
+                  to="/login"
                   className="nav-link text-body font-weight-bold px-0"
                 >
                   <i className="fa fa-user me-sm-1" />
@@ -71,8 +75,8 @@ const Navbar = () => {
                 </Link>
               </li>
               <li className="nav-item d-xl-none ps-3 d-flex align-items-center">
-                <a
-                  href="javascript:;"
+                <Link
+                  to="/javascript:;"
                   className="nav-link text-body p-0"
                   id="iconNavbarSidenav"
                 >
@@ -81,31 +85,31 @@ const Navbar = () => {
                     <i className="sidenav-toggler-line" />
                     <i className="sidenav-toggler-line" />
                   </div>
-                </a>
+                </Link>
               </li>
               <li className="nav-item px-3 d-flex align-items-center">
-                <a href="javascript:;" className="nav-link text-body p-0">
+                <Link to="/javascript:;" className="nav-link text-body p-0">
                   <i className="fa fa-cog fixed-plugin-button-nav cursor-pointer" />
-                </a>
+                </Link>
               </li>
               <li className="nav-item dropdown pe-2 d-flex align-items-center">
-                <a
-                  href="javascript:;"
+                <Link
+                  to="/javascript:;"
                   className="nav-link text-body p-0"
                   id="dropdownMenuButton"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
                   <i className="fa fa-bell cursor-pointer" />
-                </a>
+                </Link>
                 <ul
                   className="dropdown-menu  dropdown-menu-end  px-2 py-3 me-sm-n4"
                   aria-labelledby="dropdownMenuButton"
                 >
                   <li className="mb-2">
-                    <a
+                    <Link
                       className="dropdown-item border-radius-md"
-                      href="javascript:;"
+                      to="/javascript:;"
                     >
                       <div className="d-flex py-1">
                         <div className="my-auto">
@@ -127,12 +131,12 @@ const Navbar = () => {
                           </p>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </li>
                   <li className="mb-2">
-                    <a
+                    <Link
                       className="dropdown-item border-radius-md"
-                      href="javascript:;"
+                      to="/javascript:;"
                     >
                       <div className="d-flex py-1">
                         <div className="my-auto">
@@ -151,12 +155,12 @@ const Navbar = () => {
                           </p>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
+                    <Link
                       className="dropdown-item border-radius-md"
-                      href="javascript:;"
+                      to="/javascript:;"
                     >
                       <div className="d-flex py-1">
                         <div className="avatar avatar-sm bg-gradient-secondary  me-3  my-auto">
@@ -206,7 +210,7 @@ const Navbar = () => {
                           </p>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>

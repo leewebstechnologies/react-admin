@@ -27,42 +27,42 @@ const Home = () => {
                       </div>
                       <div className="col-4">
                         <div className="dropdown text-end mb-6">
-                          <a
-                            href="javascript:;"
+                          <Link
+                            to="/javascript:;"
                             className="cursor-pointer"
                             id="dropdownUsers1"
                             data-bs-toggle="dropdown"
                             aria-expanded="false"
                           >
                             <i className="fa fa-ellipsis-h text-white" />
-                          </a>
+                          </Link>
                           <ul
                             className="dropdown-menu px-2 py-3"
                             aria-labelledby="dropdownUsers1"
                           >
                             <li>
-                              <a
+                              <Link
                                 className="dropdown-item border-radius-md"
-                                href="javascript:;"
+                                to="/javascript:;"
                               >
                                 Action
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a
+                              <Link
                                 className="dropdown-item border-radius-md"
-                                href="javascript:;"
+                                to="/javascript:;"
                               >
                                 Another action
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a
+                              <Link
                                 className="dropdown-item border-radius-md"
-                                href="javascript:;"
+                                to="/javascript:;"
                               >
                                 Something else here
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -93,42 +93,42 @@ const Home = () => {
                       </div>
                       <div className="col-4">
                         <div className="dropstart text-end mb-6">
-                          <a
-                            href="javascript:;"
+                          <Link
+                            to="/javascript:;"
                             className="cursor-pointer"
                             id="dropdownUsers2"
                             data-bs-toggle="dropdown"
                             aria-expanded="false"
                           >
                             <i className="fa fa-ellipsis-h text-white" />
-                          </a>
+                          </Link>
                           <ul
                             className="dropdown-menu px-2 py-3"
                             aria-labelledby="dropdownUsers2"
                           >
                             <li>
-                              <a
+                              <Link
                                 className="dropdown-item border-radius-md"
-                                href="javascript:;"
+                                to="/javascript:;"
                               >
                                 Action
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a
+                              <Link
                                 className="dropdown-item border-radius-md"
-                                href="javascript:;"
+                                to="/javascript:;"
                               >
                                 Another action
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a
+                              <Link
                                 className="dropdown-item border-radius-md"
-                                href="javascript:;"
+                                to="/javascript:;"
                               >
                                 Something else here
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -163,42 +163,42 @@ const Home = () => {
                       </div>
                       <div className="col-4">
                         <div className="dropdown text-end mb-6">
-                          <a
-                            href="javascript:;"
+                          <Link
+                            to="/javascript:;"
                             className="cursor-pointer"
                             id="dropdownUsers3"
                             data-bs-toggle="dropdown"
                             aria-expanded="false"
                           >
                             <i className="fa fa-ellipsis-h text-white" />
-                          </a>
+                          </Link>
                           <ul
                             className="dropdown-menu px-2 py-3"
                             aria-labelledby="dropdownUsers3"
                           >
                             <li>
-                              <a
+                              <Link
                                 className="dropdown-item border-radius-md"
-                                href="javascript:;"
+                                to="/javascript:;"
                               >
                                 Action
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a
+                              <Link
                                 className="dropdown-item border-radius-md"
-                                href="javascript:;"
+                                to="/javascript:;"
                               >
                                 Another action
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a
+                              <Link
                                 className="dropdown-item border-radius-md"
-                                href="javascript:;"
+                                to="/javascript:;"
                               >
                                 Something else here
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -229,42 +229,42 @@ const Home = () => {
                       </div>
                       <div className="col-4">
                         <div className="dropstart text-end mb-6">
-                          <a
-                            href="javascript:;"
+                          <Link
+                            to="/javascript:;"
                             className="cursor-pointer"
                             id="dropdownUsers4"
                             data-bs-toggle="dropdown"
                             aria-expanded="false"
                           >
                             <i className="fa fa-ellipsis-h text-white" />
-                          </a>
+                          </Link>
                           <ul
                             className="dropdown-menu px-2 py-3"
                             aria-labelledby="dropdownUsers4"
                           >
                             <li>
-                              <a
+                              <Link
                                 className="dropdown-item border-radius-md"
-                                href="javascript:;"
+                                to="/javascript:;"
                               >
                                 Action
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a
+                              <Link
                                 className="dropdown-item border-radius-md"
-                                href="javascript:;"
+                                to="/javascript:;"
                               >
                                 Another action
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a
+                              <Link
                                 className="dropdown-item border-radius-md"
-                                href="javascript:;"
+                                to="/javascript:;"
                               >
                                 Something else here
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -361,9 +361,9 @@ const Home = () => {
                   <p className="text-sm"></p>
                 </div>
                 <div className="w-40 text-end">
-                  <a className="btn btn-dark mb-0 text-end" href="javascript:;">
+                  <Link className="btn btn-dark mb-0 text-end" to="/javascript:;">
                     View all reviews
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -386,41 +386,41 @@ const Home = () => {
                   </div>
                   <div className="col-lg-6 col-5 my-auto text-end">
                     <div className="dropdown float-lg-end pe-4">
-                      <a
+                      <Link
                         className="cursor-pointer"
                         id="dropdownTable"
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                       >
                         <i className="fa fa-ellipsis-v text-secondary" />
-                      </a>
+                      </Link>
                       <ul
                         className="dropdown-menu px-2 py-3 ms-sm-n4 ms-n5"
                         aria-labelledby="dropdownTable"
                       >
                         <li>
-                          <a
+                          <Link
                             className="dropdown-item border-radius-md"
-                            href="javascript:;"
+                            to="/javascript:;"
                           >
                             Action
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a
+                          <Link
                             className="dropdown-item border-radius-md"
-                            href="javascript:;"
+                            to="/javascript:;"
                           >
                             Another action
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a
+                          <Link
                             className="dropdown-item border-radius-md"
-                            href="javascript:;"
+                            to="/javascript:;"
                           >
                             Something else here
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -468,24 +468,24 @@ const Home = () => {
                         <td>2</td>
                         <td>
                           <div className="avatar-group mt-2">
-                            <a
-                              href="javascript:;"
+                            <Link
+                              to="/javascript:;"
                               className="avatar avatar-xs rounded-circle"
                               data-bs-toggle="tooltip"
                               data-bs-placement="bottom"
                               title="Romina Hadid"
                             >
                               <img src="../assets/img/team-2.jpg" alt="team5" />
-                            </a>
-                            <a
-                              href="javascript:;"
+                            </Link>
+                            <Link
+                              to="/javascript:;"
                               className="avatar avatar-xs rounded-circle"
                               data-bs-toggle="tooltip"
                               data-bs-placement="bottom"
                               title="Jessica Doe"
                             >
                               <img src="../assets/img/team-4.jpg" alt="team6" />
-                            </a>
+                            </Link>
                           </div>
                         </td>
                         <td className="align-middle text-center text-sm">
@@ -532,24 +532,24 @@ const Home = () => {
                         <td>3</td>
                         <td>
                           <div className="avatar-group mt-2">
-                            <a
-                              href="javascript:;"
+                            <Link
+                              to="/javascript:;"
                               className="avatar avatar-xs rounded-circle"
                               data-bs-toggle="tooltip"
                               data-bs-placement="bottom"
                               title="Romina Hadid"
                             >
                               <img src="../assets/img/team-2.jpg" alt="team5" />
-                            </a>
-                            <a
-                              href="javascript:;"
+                            </Link>
+                            <Link
+                              to="/javascript:;"
                               className="avatar avatar-xs rounded-circle"
                               data-bs-toggle="tooltip"
                               data-bs-placement="bottom"
                               title="Jessica Doe"
                             >
                               <img src="../assets/img/team-4.jpg" alt="team6" />
-                            </a>
+                            </Link>
                           </div>
                         </td>
                         <td className="align-middle text-center text-sm">
@@ -596,24 +596,24 @@ const Home = () => {
                         <td>1</td>
                         <td>
                           <div className="avatar-group mt-2">
-                            <a
-                              href="javascript:;"
+                            <Link
+                              to="/javascript:;"
                               className="avatar avatar-xs rounded-circle"
                               data-bs-toggle="tooltip"
                               data-bs-placement="bottom"
                               title="Romina Hadid"
                             >
                               <img src="../assets/img/team-2.jpg" alt="team5" />
-                            </a>
-                            <a
-                              href="javascript:;"
+                            </Link>
+                            <Link
+                              to="/javascript:;"
                               className="avatar avatar-xs rounded-circle"
                               data-bs-toggle="tooltip"
                               data-bs-placement="bottom"
                               title="Jessica Doe"
                             >
                               <img src="../assets/img/team-4.jpg" alt="team6" />
-                            </a>
+                            </Link>
                           </div>
                         </td>
                         <td className="align-middle text-center text-sm">
@@ -733,16 +733,16 @@ const Home = () => {
                       <p className="mb-5">
                         Predicting the likelihood of Mould growth in buildings.
                       </p>
-                      <a
+                      <Link
                         className="text-body text-sm font-weight-bold mb-0 icon-move-right mt-auto"
-                        href="javascript:;"
+                        to="/javascript:;"
                       >
                         Read More
                         <i
                           className="fas fa-arrow-right text-sm ms-1"
                           aria-hidden="true"
                         />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div className="col-lg-5 ms-auto text-center mt-5 mt-lg-0">
@@ -780,18 +780,18 @@ const Home = () => {
                     Join us on our mission to revolutionize mould prevention and
                     creating healthier, more sustainable built environments. We
                     apprecciate your feedback, to help us imporve the platform
-                    for a more healthier space
+                    for Link more healthier space
                   </p>
-                  <a
+                  <Link
                     className="text-white text-sm font-weight-bold mb-0 icon-move-right mt-auto"
-                    href="javascript:;"
+                    to="/javascript:;"
                   >
                     Read More
                     <i
                       className="fas fa-arrow-right text-sm ms-1"
                       aria-hidden="true"
                     />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -1078,39 +1078,8 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <footer className="footer pt-3  ">
-          <div className="container-fluid">
-            <div className="row align-items-center justify-content-lg-between">
-              <div className="col-lg-6 mb-lg-0 mb-4">
-                <div className="copyright text-center text-sm text-muted text-lg-start">
-                  © , AI-DOMP
-                </div>
-              </div>
-              <div className="col-lg-6">
-                <ul className="nav nav-footer justify-content-center justify-content-lg-end">
-                  <li className="nav-item">
-                    <a href="#" className="nav-link text-muted" target="_blank">
-                      Home
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a href="#" className="nav-link text-muted" target="_blank">
-                      About Us
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a href="#" className="nav-link text-muted" target="_blank">
-                      Blog
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </footer>
       </div>
     </>
   );
 };
 export default Home;
-

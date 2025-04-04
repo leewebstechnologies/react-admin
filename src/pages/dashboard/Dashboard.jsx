@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./dashboard.css";
 
 const Dashboard = () => {
@@ -26,42 +27,42 @@ const Dashboard = () => {
                       </div>
                       <div className="col-4">
                         <div className="dropdown text-end mb-6">
-                          <a
-                            href="javascript:;"
+                          <Link
+                            to="/javascript:;"
                             className="cursor-pointer"
                             id="dropdownUsers1"
                             data-bs-toggle="dropdown"
                             aria-expanded="false"
                           >
                             <i className="fa fa-ellipsis-h text-white" />
-                          </a>
+                          </Link>
                           <ul
                             className="dropdown-menu px-2 py-3"
                             aria-labelledby="dropdownUsers1"
                           >
                             <li>
-                              <a
+                              <Link
                                 className="dropdown-item border-radius-md"
-                                href="javascript:;"
+                                to="/javascript:;"
                               >
                                 Action
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a
+                              <Link
                                 className="dropdown-item border-radius-md"
-                                href="javascript:;"
+                                to="/javascript:;"
                               >
                                 Another action
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a
+                              <Link
                                 className="dropdown-item border-radius-md"
-                                href="javascript:;"
+                                to="/javascript:;"
                               >
                                 Something else here
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -92,42 +93,42 @@ const Dashboard = () => {
                       </div>
                       <div className="col-4">
                         <div className="dropstart text-end mb-6">
-                          <a
-                            href="javascript:;"
+                          <Link
+                            to="/javascript:;"
                             className="cursor-pointer"
                             id="dropdownUsers2"
                             data-bs-toggle="dropdown"
                             aria-expanded="false"
                           >
                             <i className="fa fa-ellipsis-h text-white" />
-                          </a>
+                          </Link>
                           <ul
                             className="dropdown-menu px-2 py-3"
                             aria-labelledby="dropdownUsers2"
                           >
                             <li>
-                              <a
+                              <Link
                                 className="dropdown-item border-radius-md"
-                                href="javascript:;"
+                                to="/javascript:;"
                               >
                                 Action
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a
+                              <Link
                                 className="dropdown-item border-radius-md"
-                                href="javascript:;"
+                                to="/javascript:;"
                               >
                                 Another action
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a
+                              <Link
                                 className="dropdown-item border-radius-md"
-                                href="javascript:;"
+                                to="/javascript:;"
                               >
                                 Something else here
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -160,42 +161,42 @@ const Dashboard = () => {
                       </div>
                       <div className="col-4">
                         <div className="dropdown text-end mb-6">
-                          <a
-                            href="javascript:;"
+                          <Link
+                            to="/javascript:;"
                             className="cursor-pointer"
                             id="dropdownUsers3"
                             data-bs-toggle="dropdown"
                             aria-expanded="false"
                           >
                             <i className="fa fa-ellipsis-h text-white" />
-                          </a>
+                          </Link>
                           <ul
                             className="dropdown-menu px-2 py-3"
                             aria-labelledby="dropdownUsers3"
                           >
                             <li>
-                              <a
+                              <Link
                                 className="dropdown-item border-radius-md"
-                                href="javascript:;"
+                                to="/javascript:;"
                               >
                                 Action
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a
+                              <Link
                                 className="dropdown-item border-radius-md"
-                                href="javascript:;"
+                                to="/javascript:;"
                               >
                                 Another action
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a
+                              <Link
                                 className="dropdown-item border-radius-md"
-                                href="javascript:;"
+                                to="/javascript:;"
                               >
                                 Something else here
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -226,42 +227,42 @@ const Dashboard = () => {
                       </div>
                       <div className="col-4">
                         <div className="dropstart text-end mb-6">
-                          <a
-                            href="javascript:;"
+                          <Link
+                            to="/javascript:;"
                             className="cursor-pointer"
                             id="dropdownUsers4"
                             data-bs-toggle="dropdown"
                             aria-expanded="false"
                           >
                             <i className="fa fa-ellipsis-h text-white" />
-                          </a>
+                          </Link>
                           <ul
                             className="dropdown-menu px-2 py-3"
                             aria-labelledby="dropdownUsers4"
                           >
                             <li>
-                              <a
+                              <Link
                                 className="dropdown-item border-radius-md"
-                                href="javascript:;"
+                                to="/javascript:;"
                               >
                                 Action
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a
+                              <Link
                                 className="dropdown-item border-radius-md"
-                                href="javascript:;"
+                                to="/javascript:;"
                               >
                                 Another action
-                              </a>
+                              </Link>
                             </li>
                             <li>
-                              <a
+                              <Link
                                 className="dropdown-item border-radius-md"
-                                href="javascript:;"
+                                to="/javascript:;"
                               >
                                 Something else here
-                              </a>
+                              </Link>
                             </li>
                           </ul>
                         </div>
@@ -361,9 +362,12 @@ const Dashboard = () => {
                   </p>
                 </div>
                 <div className="w-40 text-end">
-                  <a className="btn btn-dark mb-0 text-end" href="javascript:;">
+                  <Link
+                    className="btn btn-dark mb-0 text-end"
+                    to="/javascript:;"
+                  >
                     View all reviews
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -386,41 +390,42 @@ const Dashboard = () => {
                   </div>
                   <div className="col-lg-6 col-5 my-auto text-end">
                     <div className="dropdown float-lg-end pe-4">
-                      <a
+                      <Link
+                        to="/"
                         className="cursor-pointer"
                         id="dropdownTable"
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                       >
                         <i className="fa fa-ellipsis-v text-secondary" />
-                      </a>
+                      </Link>
                       <ul
                         className="dropdown-menu px-2 py-3 ms-sm-n4 ms-n5"
                         aria-labelledby="dropdownTable"
                       >
                         <li>
-                          <a
+                          <Link
                             className="dropdown-item border-radius-md"
-                            href="javascript:;"
+                            to="/javascript:;"
                           >
                             Action
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a
+                          <Link
                             className="dropdown-item border-radius-md"
-                            href="javascript:;"
+                            to="/javascript:;"
                           >
                             Another action
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a
+                          <Link
                             className="dropdown-item border-radius-md"
-                            href="javascript:;"
+                            to="/javascript:;"
                           >
                             Something else here
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -466,42 +471,42 @@ const Dashboard = () => {
                         </td>
                         <td>
                           <div className="avatar-group mt-2">
-                            <a
-                              href="javascript:;"
+                            <Link
+                              to="/javascript:;"
                               className="avatar avatar-xs rounded-circle"
                               data-bs-toggle="tooltip"
                               data-bs-placement="bottom"
                               title="Ryan Tompson"
                             >
                               <img src="../assets/img/team-1.jpg" alt="team1" />
-                            </a>
-                            <a
-                              href="javascript:;"
+                            </Link>
+                            <Link
+                              to="javascript:;"
                               className="avatar avatar-xs rounded-circle"
                               data-bs-toggle="tooltip"
                               data-bs-placement="bottom"
                               title="Romina Hadid"
                             >
                               <img src="../assets/img/team-2.jpg" alt="team2" />
-                            </a>
-                            <a
-                              href="javascript:;"
+                            </Link>
+                            <Link
+                              to="/javascript:;"
                               className="avatar avatar-xs rounded-circle"
                               data-bs-toggle="tooltip"
                               data-bs-placement="bottom"
                               title="Alexander Smith"
                             >
                               <img src="../assets/img/team-3.jpg" alt="team3" />
-                            </a>
-                            <a
-                              href="javascript:;"
+                            </Link>
+                            <Link
+                              to="/javascript:;"
                               className="avatar avatar-xs rounded-circle"
                               data-bs-toggle="tooltip"
                               data-bs-placement="bottom"
                               title="Jessica Doe"
                             >
                               <img src="../assets/img/team-4.jpg" alt="team4" />
-                            </a>
+                            </Link>
                           </div>
                         </td>
                         <td className="align-middle text-center text-sm">
@@ -550,24 +555,24 @@ const Dashboard = () => {
                         </td>
                         <td>
                           <div className="avatar-group mt-2">
-                            <a
-                              href="javascript:;"
+                            <Link
+                              to="/javascript:;"
                               className="avatar avatar-xs rounded-circle"
                               data-bs-toggle="tooltip"
                               data-bs-placement="bottom"
                               title="Romina Hadid"
                             >
                               <img src="../assets/img/team-2.jpg" alt="team5" />
-                            </a>
-                            <a
-                              href="javascript:;"
+                            </Link>
+                            <Link
+                              to="/javascript:;"
                               className="avatar avatar-xs rounded-circle"
                               data-bs-toggle="tooltip"
                               data-bs-placement="bottom"
                               title="Jessica Doe"
                             >
                               <img src="../assets/img/team-4.jpg" alt="team6" />
-                            </a>
+                            </Link>
                           </div>
                         </td>
                         <td className="align-middle text-center text-sm">
@@ -616,24 +621,24 @@ const Dashboard = () => {
                         </td>
                         <td>
                           <div className="avatar-group mt-2">
-                            <a
-                              href="javascript:;"
+                            <Link
+                              to="/javascript:;"
                               className="avatar avatar-xs rounded-circle"
                               data-bs-toggle="tooltip"
                               data-bs-placement="bottom"
                               title="Romina Hadid"
                             >
                               <img src="../assets/img/team-3.jpg" alt="team8" />
-                            </a>
-                            <a
-                              href="javascript:;"
+                            </Link>
+                            <Link
+                              to="javascript:;"
                               className="avatar avatar-xs rounded-circle"
                               data-bs-toggle="tooltip"
                               data-bs-placement="bottom"
                               title="Jessica Doe"
                             >
                               <img src="../assets/img/team-1.jpg" alt="team9" />
-                            </a>
+                            </Link>
                           </div>
                         </td>
                         <td className="align-middle text-center text-sm">
@@ -682,42 +687,42 @@ const Dashboard = () => {
                         </td>
                         <td>
                           <div className="avatar-group mt-2">
-                            <a
-                              href="javascript:;"
+                            <Link
+                              to="/javascript:;"
                               className="avatar avatar-xs rounded-circle"
                               data-bs-toggle="tooltip"
                               data-bs-placement="bottom"
                               title="Ryan Tompson"
                             >
                               <img src="../assets/img/team-4.jpg" alt="user1" />
-                            </a>
-                            <a
-                              href="javascript:;"
+                            </Link>
+                            <Link
+                              to="/javascript:;"
                               className="avatar avatar-xs rounded-circle"
                               data-bs-toggle="tooltip"
                               data-bs-placement="bottom"
                               title="Romina Hadid"
                             >
                               <img src="../assets/img/team-3.jpg" alt="user2" />
-                            </a>
-                            <a
-                              href="javascript:;"
+                            </Link>
+                            <Link
+                              to="/javascript:;"
                               className="avatar avatar-xs rounded-circle"
                               data-bs-toggle="tooltip"
                               data-bs-placement="bottom"
                               title="Alexander Smith"
                             >
                               <img src="../assets/img/team-4.jpg" alt="user3" />
-                            </a>
-                            <a
-                              href="javascript:;"
+                            </Link>
+                            <Link
+                              to="/javascript:;"
                               className="avatar avatar-xs rounded-circle"
                               data-bs-toggle="tooltip"
                               data-bs-placement="bottom"
                               title="Jessica Doe"
                             >
                               <img src="../assets/img/team-1.jpg" alt="user4" />
-                            </a>
+                            </Link>
                           </div>
                         </td>
                         <td className="align-middle text-center text-sm">
@@ -766,15 +771,15 @@ const Dashboard = () => {
                         </td>
                         <td>
                           <div className="avatar-group mt-2">
-                            <a
-                              href="javascript:;"
+                            <Link
+                              to="/javascript:;"
                               className="avatar avatar-xs rounded-circle"
                               data-bs-toggle="tooltip"
                               data-bs-placement="bottom"
                               title="Ryan Tompson"
                             >
                               <img src="../assets/img/team-4.jpg" alt="user5" />
-                            </a>
+                            </Link>
                           </div>
                         </td>
                         <td className="align-middle text-center text-sm">
@@ -823,24 +828,24 @@ const Dashboard = () => {
                         </td>
                         <td>
                           <div className="avatar-group mt-2">
-                            <a
-                              href="javascript:;"
+                            <Link
+                              to="/javascript:;"
                               className="avatar avatar-xs rounded-circle"
                               data-bs-toggle="tooltip"
                               data-bs-placement="bottom"
                               title="Ryan Tompson"
                             >
                               <img src="../assets/img/team-1.jpg" alt="user6" />
-                            </a>
-                            <a
-                              href="javascript:;"
+                            </Link>
+                            <Link
+                              to="javascript:;"
                               className="avatar avatar-xs rounded-circle"
                               data-bs-toggle="tooltip"
                               data-bs-placement="bottom"
                               title="Jessica Doe"
                             >
                               <img src="../assets/img/team-4.jpg" alt="user7" />
-                            </a>
+                            </Link>
                           </div>
                         </td>
                         <td className="align-middle text-center text-sm">
@@ -986,16 +991,16 @@ const Dashboard = () => {
                         From colors, cards, typography to complex elements, you
                         will find the full documentation.
                       </p>
-                      <a
+                      <Link
                         className="text-body text-sm font-weight-bold mb-0 icon-move-right mt-auto"
-                        href="javascript:;"
+                        to="/javascript:;"
                       >
                         Read More
                         <i
                           className="fas fa-arrow-right text-sm ms-1"
                           aria-hidden="true"
                         />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div className="col-lg-5 ms-auto text-center mt-5 mt-lg-0">
@@ -1033,16 +1038,16 @@ const Dashboard = () => {
                     Wealth creation is an evolutionarily recent positive-sum
                     game. It is all about who take the opportunity first.
                   </p>
-                  <a
+                  <Link
                     className="text-white text-sm font-weight-bold mb-0 icon-move-right mt-auto"
-                    href="javascript:;"
+                    to="/javascript:;"
                   >
                     Read More
                     <i
                       className="fas fa-arrow-right text-sm ms-1"
                       aria-hidden="true"
                     />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -1332,9 +1337,9 @@ const Dashboard = () => {
       </div>
 
       <div className="fixed-plugin">
-        <a className="fixed-plugin-button text-dark position-fixed px-3 py-2">
+        <Link className="fixed-plugin-button text-dark position-fixed px-3 py-2">
           <i className="fa fa-cog py-2"> </i>
-        </a>
+        </Link>
         <div className="card shadow-lg ">
           <div className="card-header pb-0 pt-3 ">
             <div className="float-start">
@@ -1354,8 +1359,8 @@ const Dashboard = () => {
             <div>
               <h6 className="mb-0">Sidebar Colors</h6>
             </div>
-            <a
-              href="javascript:void(0)"
+            <Link
+              to="/javascript:void(0)"
               className="switch-trigger background-color"
             >
               <div className="badge-colors my-2 text-start">
@@ -1390,7 +1395,7 @@ const Dashboard = () => {
                   onclick="sidebarColor(this)"
                 />
               </div>
-            </a>
+            </Link>
             {/* Sidenav Type */}
             <div className="mt-3">
               <h6 className="mb-0">Sidenav Type</h6>
@@ -1430,45 +1435,45 @@ const Dashboard = () => {
               />
             </div>
             <hr className="horizontal dark my-sm-4" />
-            <a
+            <Link
               className="btn bg-gradient-dark w-100"
-              href="https://www.creative-tim.com/product/soft-ui-dashboard"
+              to="/https://www.creative-tim.com/product/soft-ui-dashboard"
             >
               Free Download
-            </a>
-            <a
+            </Link>
+            <Link
               className="btn btn-outline-dark w-100"
-              href="https://www.creative-tim.com/learning-lab/bootstrap/license/soft-ui-dashboard"
+              to="/https://www.creative-tim.com/learning-lab/bootstrap/license/soft-ui-dashboard"
             >
               View documentation
-            </a>
+            </Link>
             <div className="w-100 text-center">
-              <a
+              <Link
                 className="github-button"
-                href="https://github.com/creativetimofficial/soft-ui-dashboard"
+                to="/https://github.com/creativetimofficial/soft-ui-dashboard"
                 data-icon="octicon-star"
                 data-size="large"
                 data-show-count="true"
                 aria-label="Star creativetimofficial/soft-ui-dashboard on GitHub"
               >
                 Star
-              </a>
+              </Link>
               <h6 className="mt-3">Thank you for sharing!</h6>
-              <a
-                href="https://twitter.com/intent/tweet?text=Check%20Soft%20UI%20Dashboard%20made%20by%20%40CreativeTim%20%23webdesign%20%23dashboard%20%23bootstrap5&url=https%3A%2F%2Fwww.creative-tim.com%2Fproduct%2Fsoft-ui-dashboard"
+              <Link
+                to="/https://twitter.com/intent/tweet?text=Check%20Soft%20UI%20Dashboard%20made%20by%20%40CreativeTim%20%23webdesign%20%23dashboard%20%23bootstrap5&url=https%3A%2F%2Fwww.creative-tim.com%2Fproduct%2Fsoft-ui-dashboard"
                 className="btn btn-dark mb-0 me-2"
                 target="_blank"
               >
                 <i className="fab fa-twitter me-1" aria-hidden="true" /> Tweet
-              </a>
-              <a
-                href="https://www.facebook.com/sharer/sharer.php?u=https://www.creative-tim.com/product/soft-ui-dashboard"
+              </Link>
+              <Link
+                to="/https://www.facebook.com/sharer/sharer.php?u=https://www.creative-tim.com/product/soft-ui-dashboard"
                 className="btn btn-dark mb-0 me-2"
                 target="_blank"
               >
                 <i className="fab fa-facebook-square me-1" aria-hidden="true" />{" "}
                 Share
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -1477,5 +1482,3 @@ const Dashboard = () => {
   );
 };
 export default Dashboard;
-
-

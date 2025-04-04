@@ -381,7 +381,7 @@ const Aside = () => {
               </div>
             </div>
           </div>
-          <Link className="btn btn-primary mt-3 w-100" href="/">
+          <Link className="btn btn-primary mt-3 w-100" to="/">
             Home
           </Link>
         </div>

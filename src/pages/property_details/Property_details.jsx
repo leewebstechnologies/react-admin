@@ -18,9 +18,9 @@ const Property_details = () => {
             <p className="small text-dark" id="property_info" />
             {/* Buttons */}
             <div className="mt-3 d-flex justify-content-center gap-2">
-              <a className="btn btn-primary" href="#sap_section" role="button"><span>SAP</span></a>
-              <a className="btn btn-warning text-white" href="#mould_section" role="button"><span>Mould RAG</span></a>
-              <a className="btn btn-success" href="#retrofit_section" role="button"><span>Retrofit Upgrade</span></a>
+              <Link className="btn btn-primary" to="/create_sap" role="button"><span>SAP</span></Link>
+              <Link className="btn btn-warning text-white" to="/create_mould" role="button"><span>Mould RAG</span></Link>
+              <Link className="btn btn-success" to="/create_upgrade" role="button"><span>Retrofit Upgrade</span></Link>
             </div>
           </div>
         </div>

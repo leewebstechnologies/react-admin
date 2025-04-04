@@ -87,9 +87,9 @@ const Property = () => {
       </div>
 
       <div className="fixed-plugin">
-        <a className="fixed-plugin-button text-dark position-fixed px-3 py-2">
+        <Link className="fixed-plugin-button text-dark position-fixed px-3 py-2">
           <i className="fa fa-cog py-2"> </i>
-        </a>
+        </Link>
         <div className="card shadow-lg ">
           <div className="card-header pb-0 pt-3 ">
             <div className="float-start">
@@ -109,8 +109,8 @@ const Property = () => {
             <div>
               <h6 className="mb-0">Sidebar Colors</h6>
             </div>
-            <a
-              href="javascript:void(0)"
+            <Link
+              to="/javascript:void(0)"
               className="switch-trigger background-color"
             >
               <div className="badge-colors my-2 text-start">
@@ -145,7 +145,7 @@ const Property = () => {
                   onclick="sidebarColor(this)"
                 />
               </div>
-            </a>
+            </Link>
             {/* Sidenav Type */}
             <div className="mt-3">
               <h6 className="mb-0">Sidenav Type</h6>
@@ -185,9 +185,9 @@ const Property = () => {
               />
             </div>
             <hr className="horizontal dark my-sm-4" />
-            <a className="btn btn-outline-dark w-100" href="#">
+            <Link className="btn btn-outline-dark w-100" to="/">
               View documentation
-            </a>
+            </Link>
           </div>
         </div>
       </div>

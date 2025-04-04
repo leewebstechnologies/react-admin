@@ -54,12 +54,12 @@ const Login = () => {
                 </button>
                 <div className="text-center">
                   <span className="text-muted">Already have an account? </span>
-                  <a
-                    href="signup.html"
+                  <Link
+                    to="/login"
                     className="text-danger text-decoration-none fw-semibold"
                   >
                     Sign Up
-                  </a>
+                  </Link>
                 </div>
               </form>
             </div>
